@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "install": "^0.13.0",
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  },
+  "scripts": {
+    "test:api": "node api_tests.js ",
+    "test:api:report": "node api_tests.js -r htmlextra"
+  }
+}
