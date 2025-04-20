@@ -1,3 +1,11 @@
+## Prerequisites
+
+* **Node.js and npm (or npx):** Ensure you have Node.js and npm (Node Package Manager) installed on your system. You can download them from [https://nodejs.org/](https://nodejs.org/). `npx` comes bundled with npm (version 5.2+).
+* **Newman:** Install Newman either globally or locally in your project:
+    * **Globally:** `npm install -g newman`
+    * **Locally:** `npm install newman --save-dev`
+* **Postman Collection and Environment (Optional):** You will need a Postman Collection JSON file (`collection.json` in the example) and optionally a Postman Environment JSON file (`testenvironment.postman_environment.json` in the example) and/or a Globals JSON file (`globals.json` in the example) if your tests rely on environment or global variables.
+
 ## Setup
 
 1.  **Clone the repository** (if you haven't already).
